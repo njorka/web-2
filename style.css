@@ -1,0 +1,106 @@
+*, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("background.png");
+    background-position: center;
+    background-size: cover;
+    height: 170vh;
+}
+
+
+.Navigation-Bar {
+   background-color: rgba(255,255,255,0.22);
+   backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    height: 15vh;
+    padding: 10px;
+   
+
+.Ul-Navigation {
+    padding-top: 7px;
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    font-size: 25px;
+    font-family: Arial;
+}
+}
+
+.Li-Navigation {
+   margin: 25px;
+   padding: 5px;
+   color: rgb(0, 0, 0);
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: blue;
+    transition: 0.2s;
+}
+
+
+.Content-1 {
+    height: 70vh;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+}
+
+.Link-Content {
+     border-radius: 70px;
+     box-shadow: box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 8px 10px 5px 0px rgba(0,0,0,0.75);;
+    background-color: white;
+    width: 50vh;
+    height: 50vh;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+}
+
+.Link-Content:hover {
+    background-color: rgb(183, 183, 194);
+    transission: 0.2s;
+    transission-delay: 0.25s;
+}
+.Img-Content {
+    width: 580px;
+    height: 380px;
+}
+
+.Footer-Content {
+     background-color: rgba(255,255,255,0.22);
+   backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255,255,255,0.3);
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.Footer-Content2 {
+     background-color: rgba(255,255,255,0.22);
+   backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255,255,255,0.3);
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 150vh;
+}
+.H1-Footer {
+   font-family: helvetica;
+   color: rgb(255, 255, 255);
+   font-size: 30px;
+   
+}
